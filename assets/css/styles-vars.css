@@ -1,0 +1,117 @@
+﻿  .header .container .bolo-call .nuevas-contrataciones {
+    color: {{Productos.COLOR_PRINCIPAL}};
+  }
+  
+  .header .container .bolo-call .nuevas-contrataciones .content-nuevas-contrataciones .link-phone {
+    color: {{Productos.COLOR_PRINCIPAL}};
+  }
+  
+  .header .container .bolo-call .nuevas-contrataciones .content-nuevas-contrataciones .link-phone:hover {
+    color: {{Productos.COLOR_PRINCIPAL_HOVER}};
+  }
+  
+  .menu .container .navbar .active-page {
+    color: {{Productos.COLOR_PRINCIPAL}};
+  }
+  
+  .header .container .bolo-call .btn-call {
+    background: {{Productos.COLOR_PRINCIPAL}};
+  }
+  
+  .header .container .bolo-call .btn-call:hover {
+    background: {{Productos.COLOR_PRINCIPAL_HOVER}};
+  }
+  
+  .menu .container .navbar .navbar-nav .nav-item.active {
+    background: {{Productos.COLOR_ENLACES}};
+  }
+  
+  .container-ppal.lazy-bg{
+    background-image: url("{{Productos.IMAGEN_PRINCIPAL}}");
+  }
+  
+  .container-button .btn-form {
+    background: {{Productos.COLOR_PRINCIPAL}};
+  }
+  
+  .container-button .btn-form:hover {
+    background: {{Productos.COLOR_PRINCIPAL_HOVER}};
+  }
+  
+  .container-ppal .container .container-form .subcontainer-form .form .sub-form .container-phone .link-phone {
+    color: {{Productos.COLOR_PRINCIPAL}};
+  }
+  
+  .container-ppal .container .container-form .subcontainer-form .form .sub-form .container-phone .link-phone:hover {
+    color: {{Productos.COLOR_PRINCIPAL_HOVER}};
+  }
+  
+  .third-container .container .container-caracteristicas .txt-producto {
+    background: {{Productos.COLOR_ENLACES}};
+  }
+  
+  .bolo-rectangulorosa.lazy-bg {
+    background-image: url("{{Productos.BOLO_RECTANGULO_ROSA_IMAGEN}}");
+  }
+  
+  .bolo-azul {
+    background-image: url({{Productos.BOLO_RECTANGULO_AZUL_IMAGEN}});
+    cursor: pointer;
+  }
+  
+  .teLlamamos .modal-lg .modal-body .part1.lazy-bg {
+    background-image: url("{{Productos.MODAL_TELLAMAMOS_IMG}}");
+  }
+  
+  .teLlamamos .modal-lg .modal-body .part2 .container-form .subcontainer-form .form .sub-form .container-phone .link-phone {
+    color: {{Productos.COLOR_PRINCIPAL}};
+  }
+  
+  .teLlamamos .modal-lg .modal-body .part2 .container-form .subcontainer-form .form .sub-form .container-phone .link-phone:hover {
+    color: {{Productos.COLOR_PRINCIPAL_HOVER}};
+  }
+  
+  .caracteristica a {
+    color: {{Productos.COLOR_ENLACES}} !important;
+  text-decoration: underline !important;
+  }
+  
+  .fourth-container.lazy-bg{
+    background-image: url("{{Productos.IMAGEN_INFERIOR}}");
+  }
+  
+  .fifth-container .spec-item:nth-child(1) .result {
+    color: {{Productos.COLOR_PRINCIPAL}} !important;
+  }
+  
+  .fifth-container .resumen-box .parte2 .localizador .phone :nth-child(2) {
+    color: {{Productos.COLOR_ENLACES}};
+  }
+  
+  [type="checkbox"]:not(:checked):after {
+    content: '\002714';
+  }
+  
+  [type="checkbox"]:checked:after {
+    content: '\002714';
+  }
+  
+  @media (max-width: 600px) {
+    .bolo-rectangulorosa .sub-bolo-rectangulorosa {
+      background: {{Productos.COLOR_PRINCIPAL}};
+    }
+    .bolo-azul {
+        background: {{Productos.COLOR_ENLACES}};
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .container-ppal .container .container-promo .container-title.lazy-bg {
+        background-image: url("{{Productos.IMAGEN_PRINCIPAL_MOBILE}}");
+    }
+
+    .fourth-container .container .container-info2.lazy-bg {
+        background-image: url("{{Productos.IMAGEN_INFERIOR_MOBILE}}");
+    }
+  }
+  
